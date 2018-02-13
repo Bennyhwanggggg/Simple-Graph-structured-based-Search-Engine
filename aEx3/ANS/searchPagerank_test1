@@ -1,0 +1,86 @@
+Generic Test:
+Input: Mars desiGn
+Output:
+url11
+url21
+url23
+url34
+url22
+url32
+
+Test with non exist word and random combination
+Input: Dog ANd moon mars
+Output:
+url11
+url23
+url34
+url22
+url32
+url21
+url31
+
+Test with single url words with repeats and multiple url words
+Input: and and and mars mars cycles cyc moon mon moons
+Output:
+url11
+url23
+url34
+url22
+url32
+url21
+url31
+
+Test with single url word with repeat
+Input: and and and
+Output:
+url11
+
+Test with single url word as last input
+Input: jupiter jupitor landing light man moons nasa planet planets bob rays observaions observations
+Output:
+url23
+url34
+url32
+url31
+url11
+
+Test with all single url word
+Input: of on robot robotics waves red
+Output:
+url11
+url32
+url23
+url34
+
+Test with all single url word
+Input:of on robot robotics waves red small planets nasa
+Output:
+url34
+url11
+url23
+url32
+
+Complicated test
+Input:  apparent ascribed and winds winds the the to vegetation volcano long rays the subject small seasonal man japan landing jupiter light small robot mars mars
+Output:
+url11
+url23
+url21
+url34
+url22
+url32
+url31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
